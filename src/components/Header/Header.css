@@ -1,23 +1,24 @@
 .header-container{
-    background-color:powderblue;
+    /* background-color:powderblue; */
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+    border-bottom: 3px solid cornflowerblue;
 }
 
 .search-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 40%;
+    width: 30%;
 }
 
 button{
-    background-color: white;
+    color: white;
     border:none;
-    color:blue;
+    background-color:cornflowerblue;
     padding:8px 16px;
     border-radius:8px;
 
@@ -30,8 +31,8 @@ button{
 .search-container input{
     border: none;
     width: 50%;
-    height: 35px;
-    font-size: 1.5em;
+    height: 25px;
+    font-size: 1.1em;
     border-radius: 8px;
     
    

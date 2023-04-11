@@ -30,7 +30,7 @@ export const userData = [
      {
         username:"Mark",
         imageUrl:"https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80",
-        country:"India",
+        country:"USA",
         description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quam cum et voluptatum recusandae doloribus praesentium, sint assumenda optio, possimus odio quaerat numquam in, illo dolor natus repudiandae perferendis repellendus."
      },
      {
@@ -48,7 +48,7 @@ export const userData = [
      {
         username:"Sabeelah",
         imageUrl:"https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
-        country:"Thailand",
+        country:"Japan",
         description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quam cum et voluptatum recusandae doloribus praesentium, sint assumenda optio, possimus odio quaerat numquam in, illo dolor natus repudiandae perferendis repellendus."
      }
 ];

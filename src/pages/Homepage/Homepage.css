@@ -1,3 +1,7 @@
+.homepage-container{
+    padding: 20px;
+}
+
 .person-container{
     display: flex;
     flex-wrap: wrap;

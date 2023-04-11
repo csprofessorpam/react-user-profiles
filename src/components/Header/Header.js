@@ -16,9 +16,9 @@ function Header({userData, setUsers}) {
     <div className="header-container">
       <button onClick={()=>setUsers(userData)}>Show all</button>
       <div className="search-container">
-        <input type="text" placeholder="search country"
+        <input type="text" placeholder="enter country"
         onChange={(e)=>setCountry(e.target.value)}/>
-        <button onClick={handleSearch}>Search by country</button>
+        <button onClick={handleSearch}>Search</button>
       </div>
     </div>
   )

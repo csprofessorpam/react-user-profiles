@@ -10,7 +10,7 @@ function Homepage({users}) {
     //const [users, setUsers] = React.useState(userdata)
 
   return (
-    <div>
+    <div className="homepage-container">
       <h1>User Directory</h1>
     <div className="person-container">
         
