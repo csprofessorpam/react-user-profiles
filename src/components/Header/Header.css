@@ -1,5 +1,5 @@
 .header-container{
-    background-color: antiquewhite;
+    background-color:powderblue;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -9,4 +9,31 @@
 
 .search-container{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+button{
+    background-color: white;
+    border:none;
+    color:blue;
+    padding:8px 16px;
+    border-radius:8px;
+
+
+
+    cursor:pointer;
+    font-size:16px;
+}
+
+.search-container input{
+    border: none;
+    width: 50%;
+    height: 35px;
+    font-size: 1.5em;
+    border-radius: 8px;
+    
+   
+    text-align: center;
 }

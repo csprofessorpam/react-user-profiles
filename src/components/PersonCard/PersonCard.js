@@ -5,7 +5,7 @@ function PersonCard({person}) {
   return (
     <div className='person-card'>
       <img src={person?.imageUrl} className="person-img"/>
-        <h3>{person.username}</h3>
+        <h3>{person?.username}</h3>
         <p>{person?.country}</p>
     </div>
   )

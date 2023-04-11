@@ -16,3 +16,7 @@
     --button-bg:rgb(77, 77, 156);
     --transparent-bg:rgba(20, 20, 20, 0.7);
   }
+.App{
+    background-color:mintcream;
+    min-height: 100vh;
+}

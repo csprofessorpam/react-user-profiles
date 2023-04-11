@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import {userdata} from './users.js'
+import {userData} from './utils/users.js'
 import Header from './components/Header/Header';
 import Homepage from './pages/Homepage/Homepage';
 
@@ -11,7 +11,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header setUsers={setUsers}/>
+      
+      <Header setUsers={setUsers} userData={userData}/>
+      
       <Homepage users={users}/>
         
     </div>

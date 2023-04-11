@@ -10,11 +10,14 @@ function Homepage({users}) {
     //const [users, setUsers] = React.useState(userdata)
 
   return (
+    <div>
+      <h1>User Directory</h1>
     <div className="person-container">
         
         {
             users.map(item=><PersonCard person={item} />)
         }
+    </div>
     </div>
   )
 }
